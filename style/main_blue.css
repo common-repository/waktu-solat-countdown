@@ -1,0 +1,71 @@
+#wscontainer {
+	padding:10px 10px;	
+	width: 95%;
+	min-height: 180px;
+}
+
+.info_message{
+	padding-top:10px;
+	padding-left: 5px;
+	width: 150px;
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* -------------- BEGIN COUNTER ---------------------*/
+
+#countbox{
+	color: #fff;
+	font-family: Myriad Pro,Helvetica,sans-serif;
+	width: 118px;
+	height: 35px;
+	margin:0 auto;	
+    padding: 2px 0 15px 0;
+}
+
+#days, #hours, #mins, #secs{
+	float: left;
+	text-align: center;	
+	background-image:url('../images/flip_blue.png');
+	background-repeat:no-repeat;
+	margin: 0 auto;
+	height: 33px;
+	width: 35px;
+}
+
+#days_text,#hours_text, #mins_text,#secs_text{
+	float: left;
+	text-align: center;
+	height: 14px;
+	width: 35px;
+	color: #000;
+	font-size: 8px;
+	text-transform: uppercase;
+	margin: 0 auto;
+
+}
+	
+#days span, #hours span, #mins span , #secs span {
+	background: url(../images/flip_gradient_blue.png);
+	background-repeat:no-repeat;
+	position: absolute;
+	display: block;
+	height: 21px;
+	width: 35px;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+#days dl, #hours dl, #mins dl , #secs dl {
+	width: 35px;
+	font-size: 24px;
+	line-height: 33px;
+	margin: 0 auto 3px auto;
+	position: absolute;
+	display: block;
+	z-index: 0;
+}
+
+/* -------------- END COUNTER ---------------------*/
